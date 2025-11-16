@@ -4,12 +4,10 @@
   "description": "Telegram bot that shows user ID",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "ping": "node ping.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "node-telegram-bot-api": "^0.64.0",
-    "axios": "^1.6.0"
+    "node-telegram-bot-api": "^0.64.0"
   },
   "engines": {
     "node": ">=18.0.0"
