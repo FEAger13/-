@@ -1,0 +1,12 @@
+services:
+  - type: worker
+    name: telegram-id-bot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: BOT_TOKEN
+        value: your_bot_token_here
+      - key: UPTIMEROBOT_URL
+        value: your_uptimerobot_url_here
